@@ -1,0 +1,66 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "Hola",
+                "Buenos d\u00edas",
+                "Hey",
+                "\u00bfEst\u00e1s ah\u00ed?"
+            ],
+            "responses": [
+                "\u00a1Hola! \u00bfEn qu\u00e9 puedo ayudarte con tu reuni\u00f3n?",
+                "Hola, dime cu\u00e1ndo quieres agendar."
+            ]
+        },
+        {
+            "tag": "agendar_hoy",
+            "patterns": [
+                "Quiero una reuni\u00f3n hoy",
+                "Agenda una junta para hoy",
+                "Podemos vernos hoy"
+            ],
+            "responses": [
+                "\u00bfTe parece bien hoy a las 4:00 PM?",
+                "Agenda registrada para hoy. \u00bfConfirmamos?"
+            ]
+        },
+        {
+            "tag": "agendar_ma\u00f1ana",
+            "patterns": [
+                "Quiero una reuni\u00f3n ma\u00f1ana",
+                "Agenda junta ma\u00f1ana",
+                "Podemos vernos ma\u00f1ana"
+            ],
+            "responses": [
+                "\u00bfTe parece bien ma\u00f1ana a las 10:00 AM?",
+                "Ma\u00f1ana a las 10 est\u00e1 libre. \u00bfConfirmamos?"
+            ]
+        },
+        {
+            "tag": "agendar_fecha",
+            "patterns": [
+                "Reuni\u00f3n el viernes",
+                "Agenda para el lunes",
+                "El martes por la tarde"
+            ],
+            "responses": [
+                "Estoy verificando la disponibilidad para esa fecha.",
+                "\u00bfDeseas que la agenda se env\u00ede a los asistentes?"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "Gracias",
+                "Hasta luego",
+                "Eso es todo",
+                "Nos vemos"
+            ],
+            "responses": [
+                "Con gusto. \u00a1Hasta luego!",
+                "Aqu\u00ed estar\u00e9 si necesitas agendar algo m\u00e1s."
+            ]
+        }
+    ]
+}
