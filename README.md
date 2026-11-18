@@ -1,6 +1,6 @@
 # 🤖 Asistente Virtual de Reuniones
 
-Este proyecto es un asistente desarrollado en Python que permite agendar reuniones mediante un chatbot.
+Este proyecto es un asistente de AI desarrollado en Python que permite agendar reuniones mediante un chatbot.
 
 ## 🧠 Funcionalidades
 
